@@ -10,6 +10,11 @@ export const Wrapper = styled.div
   align-items: center;
   width: 100%;
   height: 100%;
+  
+  .loading {
+    color: #000;
+    font-size: 22px;
+  }
 `;
 
 export const UsersContainer = styled.div
@@ -22,7 +27,7 @@ export const UsersContainer = styled.div
   height: auto;
   padding: 20px 40px 10px 40px;
   border-radius: 5px;
-  background: ${lighten(0.08, '#CD5C5C')};
+  background: ${lighten(0.08, '#ADD8E6')};
   color: #000000;
 `;
 
@@ -39,7 +44,7 @@ export const AddButton = styled.button
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #FFD700;
+  background: #FFFFFF;
   border-radius: 50%;
   border: 0;
 `;
@@ -48,7 +53,7 @@ export const AddIcon = styled(MdKeyboardArrowRight)
 `
   width: 30px;
   height: 30px;
-  color: #C71585;
+  color: #000000;
 `;
 
 export const RemoveButton = styled.button
@@ -56,7 +61,7 @@ export const RemoveButton = styled.button
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #FFD700;
+  background: #FFFFFF;
   border-radius: 50%;
   border: 0;
 `;
@@ -65,5 +70,5 @@ export const RemoveIcon = styled(MdKeyboardArrowLeft)
 `
   width: 30px;
   height: 30px;
-  color: #C71585;
+  color: #000000;
 `;
